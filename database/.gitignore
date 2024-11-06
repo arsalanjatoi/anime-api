@@ -1,0 +1,81 @@
+*.sqlite*
+# Laravel / PHP
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+.env
+.env.*.backup
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+.phpunit.result.cache
+
+# Ignore compiled assets
+/public/css/app.css
+/public/js/app.js
+
+# Laravel specific
+/.vagrant
+/.phpunit.result.cache
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework
+/storage/logs
+/storage/debugbar
+/public/hot
+/public/css/app.css
+/public/js/app.js
+
+# Ignore IDE-specific files and folders
+/.vscode/
+/.idea/
+
+# Composer generated files
+composer.lock
+
+# Node specific
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Ignore log files and cache
+*.log
+*.cache
+*.phpunit.result.cache
+
+# Ignore various binary and system files
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Ignore deployment-specific files
+.env.production
+.env.staging
+.phpunit.result.cache
+
+# Ignore Laravel Horizon specific file
+horizon.sqlite
+
+# Ignore IDE-specific files and folders
+/.vscode
+/.idea/
+.env.backup
+
+# Ignore local Laravel environment files
+.env
+.env.*.backup
+
+# Ignore Laravel Telescope entries
+storage/telescope
